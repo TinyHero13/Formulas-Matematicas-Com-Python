@@ -1,6 +1,9 @@
+"""Receba um número inteiro positivo na entrada e imprima os  n n primeiros números ímpares naturais. Para a saída, siga o formato do exemplo abaixo."""
+
 n = int(input("Digite o valor de n: "))
+impar = 1
 
 while(n != 0):
-    if(n%2 == 1):
-        print(n)
+    print(impar)
+    impar = impar + 2
     n = n - 1
